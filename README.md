@@ -15,7 +15,7 @@
 ## Description
 
 This repository is the official implementation for [General Detection-based Text Line Recognition](https://detection-based-text-line-recognition.github.io/), 
-the paper is available on [arXiv]().
+the paper is available on [arXiv](https://arxiv.org/pdf/2409.17095).
 
 This repository builds on the code for [DINO-DETR](https://github.com/IDEA-Research/DINO), the official implementation of the paper "[DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection](https://arxiv.org/abs/2203.03605)". We present a model that adapts DINO-DETR for text recognition as a detection and recognition task. The model is pretrained on synthetic data using the same loss as DINO-DETR and then fine-tuned on a real dataset with CTC loss.
 <p align="center">
