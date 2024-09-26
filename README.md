@@ -145,7 +145,8 @@ If you find this code useful, don't forget to <b>star the repo :star:</b> and <b
 @article{baena2024DTLR, title={General Detection-based Text Line Recognition}, 
 author={Raphael Baena and Syrine Kalleli and Mathieu Aubry}, 
 journal={arXiv preprint arXiv:},
-year={2024}}  
+year={2024}},
+url={https://arxiv.org/abs/2409.17095},  
 ```
 
 
