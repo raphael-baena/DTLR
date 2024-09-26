@@ -1,0 +1,4 @@
+# ninja log v5
+0	12070	1705324353681345760	/home/rbaena/projects/OCR/DINO/models/dino/ops/build/temp.linux-x86_64-cpython-310/home/rbaena/projects/OCR/DINO/models/dino/ops/src/cpu/ms_deform_attn_cpu.o	14e5849f2d834b54
+1	24040	1705324365669345056	/home/rbaena/projects/OCR/DINO/models/dino/ops/build/temp.linux-x86_64-cpython-310/home/rbaena/projects/OCR/DINO/models/dino/ops/src/cuda/ms_deform_attn_cuda.o	7c7556c077923f01
+1	33281	1705324374877344516	/home/rbaena/projects/OCR/DINO/models/dino/ops/build/temp.linux-x86_64-cpython-310/home/rbaena/projects/OCR/DINO/models/dino/ops/src/vision.o	b035f062efd26a3c

@@ -1,0 +1,12 @@
+cython
+pycocotools
+git+https://github.com/cocodataset/panopticapi.git#egg=panopticapi
+scipy
+termcolor
+addict
+yapf
+timm
+scikit-image
+opencv-python
+pandas
+wandb

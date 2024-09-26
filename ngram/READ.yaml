@@ -1,0 +1,21 @@
+# general config 
+dataset_name: "READ"
+model_folder_path: "/home/rbaena/projects/OCR/n-gram/READ_w_w/"
+checkpoint_name: "checkpoint.ckpt"
+mode: test # val or test
+
+num_samples: null # can use only 200 samples for faster but less precise ngram evaluation
+
+# ngram 
+ngram_weight: 0.27
+ngram_model_name: "READ_6_gram_char"
+
+
+
+per_word: true # ["sentence", "word", "sub_sentence"]
+
+multiply_pred_logits_by: 2
+no_uppercase_words: true # do not correct with ngram words that start with uppercase
+no_digits: true # do not correct with ngram words that start with digit
+no_dash: false
+
