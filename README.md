@@ -1,6 +1,6 @@
 <div align="center">
 
-# General Detection-based Text Line Recognition (DTLR)
+<h1><a href="https://detection-based-text-line-recognition.github.io/">General Detection-based Text Line Recognition (DTLR)</a> <br>NeurIPS 2024</h1>
 
 <font size="4">
 <a href="https://scholar.google.com/citations?user=8MU98WQAAAAJ&hl=en">Raphael Baena</a>&emsp;
