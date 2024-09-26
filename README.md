@@ -3,7 +3,7 @@
 <h1><a href="https://detection-based-text-line-recognition.github.io/">General Detection-based Text Line Recognition (DTLR)</a> <br>NeurIPS 2024</h1>
 
 <font size="4">
-<a href="https://scholar.google.com/citations?user=8MU98WQAAAAJ&hl=en">Raphael Baena</a>&emsp;
+<a href="https://raphael-baena.github.io/">Raphael Baena</a>&emsp;
 <a href="https://imagine-lab.enpc.fr/staff-members/syrine-kalleli/">Syrine Kalleli</a>&emsp;
 <a href="https://imagine.enpc.fr/~aubrym/">Mathieu Aubry</a>&emsp;
 </font>
