@@ -39,9 +39,9 @@ The model was trained with `python=3.11.0`, `pytorch=2.1.0`, `cuda=11.8` and bui
     ```
 4. Compiling CUDA operators
     ```bash
-    python src/models/dino/ops/setup.py build install # 'cuda not available', run => export CUDA_HOME=/usr/local/cuda-<version>
+    python models/dino/ops/setup.py build install # 'cuda not available', run => export CUDA_HOME=/usr/local/cuda-<version>
     # unit test (should see all checking is True) # could output an outofmemory error
-    python src/models/dino/ops/test.py
+    python models/dino/ops/test.py
     ```
 ### 2. Datasets
 Datasets should be placed in the appropriate folder specified in **datasets/config.json**. We preprocess the images and annotations for the IAM dataset, while all other datasets are used in their original form.
