@@ -15,12 +15,11 @@ parent_dir = os.path.dirname(current_script_path)
 
 # Append the parent directory to sys.path
 sys.path.append(parent_dir)
-from main import build_model_main
+from main_synthetic import build_model_main
 import argparse
 from util.slconfig import SLConfig
-from ngram_decoder.evaluation_helpers import symbols, accent_charset, weird_charset
 from prediction_helpers import get_ngram_prediction
-from evaluation_helpers import standardize_and_evaluate
+from evaluation_helpers import standardize_and_evaluate, symbols, accent_charset, weird_charset
 from datasets import build_dataset
 import torch.nn as nn
 import torch
@@ -32,7 +31,7 @@ def get_parser():
     parser.add_argument(
         "--config_path",
         type=str,
-        default="ngram_decoder/IAM.yaml",
+        default="ngram/IAM.yaml",
         help="Path to the ngram model config relative to root folder",
     )
     parser.add_argument("--verbose", action="store_true", help="Print predictions")

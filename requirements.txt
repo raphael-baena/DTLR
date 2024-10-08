@@ -10,3 +10,5 @@ scikit-image
 opencv-python
 pandas
 wandb
+pytorch-ignite
+editdistance

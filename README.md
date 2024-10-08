@@ -39,9 +39,9 @@ The model was trained with `python=3.11.0`, `pytorch=2.1.0`, `cuda=11.8` and bui
     ```
 4. Compiling CUDA operators
     ```bash
-    python src/models/dino/ops/setup.py build install # 'cuda not available', run => export CUDA_HOME=/usr/local/cuda-<version>
+    python models/dino/ops/setup.py build install # 'cuda not available', run => export CUDA_HOME=/usr/local/cuda-<version>
     # unit test (should see all checking is True) # could output an outofmemory error
-    python src/models/dino/ops/test.py
+    python models/dino/ops/test.py
     ```
 ### 2. Datasets
 Datasets should be placed in the appropriate folder specified in **datasets/config.json**. We preprocess the images and annotations for the IAM dataset, while all other datasets are used in their original form.
@@ -129,9 +129,9 @@ Use the scripts in **scripts/evaluating** to evaluate the model on the different
 We provide our N-gran models for RIMES, READ and IAM [here](). We strongly advice to create a separate environment for the ngram model and to install the libraries in the [ngram/mini_guide.md](ngram/mini_guide.md).
 To run an evalutation with the ngram model:
 ```bash
-bash python ngram/clean_gen_ngram_preds.py --config_path ngram_decoder/IAM.yaml
-bash python ngram/clean_gen_ngram_preds.py --config_path ngram_decoder/READ.yaml
-bash python ngram/clean_gen_ngram_preds.py --config_path ngram_decoder/RIMES.yaml
+bash python ngram/clean_gen_ngram_preds.py --config_path ngram/IAM.yaml
+bash python ngram/clean_gen_ngram_preds.py --config_path ngram/READ.yaml
+bash python ngram/clean_gen_ngram_preds.py --config_path ngram/RIMES.yaml
 ```
 ## Training a ngram model
 To train you own ngram model, follow the instructions in the [ngram/mini_guide.md](ngram/mini_guide.md)
