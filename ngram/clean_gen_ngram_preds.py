@@ -15,7 +15,7 @@ parent_dir = os.path.dirname(current_script_path)
 
 # Append the parent directory to sys.path
 sys.path.append(parent_dir)
-from main import build_model_main
+from main_synthetic import build_model_main
 import argparse
 from util.slconfig import SLConfig
 from prediction_helpers import get_ngram_prediction
