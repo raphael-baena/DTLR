@@ -18,9 +18,8 @@ sys.path.append(parent_dir)
 from main import build_model_main
 import argparse
 from util.slconfig import SLConfig
-from ngram_decoder.evaluation_helpers import symbols, accent_charset, weird_charset
 from prediction_helpers import get_ngram_prediction
-from evaluation_helpers import standardize_and_evaluate
+from evaluation_helpers import standardize_and_evaluate, symbols, accent_charset, weird_charset
 from datasets import build_dataset
 import torch.nn as nn
 import torch
