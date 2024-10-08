@@ -16,8 +16,6 @@ from PIL import Image
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
-
 if 'dataset' not in current_dir:
     current_dir = os.path.join(current_dir, 'dataset')
 else:
