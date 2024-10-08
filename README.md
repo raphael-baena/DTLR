@@ -129,9 +129,9 @@ Use the scripts in **scripts/evaluating** to evaluate the model on the different
 We provide our N-gran models for RIMES, READ and IAM [here](). We strongly advice to create a separate environment for the ngram model and to install the libraries in the [ngram/mini_guide.md](ngram/mini_guide.md).
 To run an evalutation with the ngram model:
 ```bash
-bash python ngram/clean_gen_ngram_preds.py --config_path ngram_decoder/IAM.yaml
-bash python ngram/clean_gen_ngram_preds.py --config_path ngram_decoder/READ.yaml
-bash python ngram/clean_gen_ngram_preds.py --config_path ngram_decoder/RIMES.yaml
+bash python ngram/clean_gen_ngram_preds.py --config_path ngram/IAM.yaml
+bash python ngram/clean_gen_ngram_preds.py --config_path ngram/READ.yaml
+bash python ngram/clean_gen_ngram_preds.py --config_path ngram/RIMES.yaml
 ```
 ## Training a ngram model
 To train you own ngram model, follow the instructions in the [ngram/mini_guide.md](ngram/mini_guide.md)

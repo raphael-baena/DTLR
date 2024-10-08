@@ -31,7 +31,7 @@ def get_parser():
     parser.add_argument(
         "--config_path",
         type=str,
-        default="ngram_decoder/IAM.yaml",
+        default="ngram/IAM.yaml",
         help="Path to the ngram model config relative to root folder",
     )
     parser.add_argument("--verbose", action="store_true", help="Print predictions")
