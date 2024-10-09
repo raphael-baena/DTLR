@@ -74,12 +74,6 @@ class HWDB(Dataset):
 
         return image, labels
 
-    def convert_text_to_labels(self, text):
-        labels = []
-    
-        for c in text:
-            labels.append(self.charset.index(c))
-        return torch.tensor(labels, dtype=torch.int64)
 
 def make_coco_transforms(image_set, fix_size=False, strong_aug=False, args=None):
         normalize = T.Compose([
