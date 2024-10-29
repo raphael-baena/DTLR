@@ -1,5 +1,4 @@
 python finetuning.py \
-	--CTC_training \
 	--device cuda:0 \
 	--new_class_embedding \
 	--output_dir logs/OCR_borg -c config/Latin_CTC.py --dataset_file borg --save_results \
