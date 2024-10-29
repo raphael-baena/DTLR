@@ -1,5 +1,4 @@
 python finetuning.py \
-	--CTC_training \
 	--device cuda:0 \
 	--new_class_embedding --smart_mapping \
 	--random_erasing \
