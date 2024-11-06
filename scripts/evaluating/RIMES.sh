@@ -1,2 +1,2 @@
-weight_path="/logs/RIMES"
+weight_path="./logs/RIMES/checkpoint.pth"
 python evaluation.py --dataset RIMES --mode test  --weights $weight_path --config config/Latin_CTC.py --NMS 0.5 --TH 0.3  
