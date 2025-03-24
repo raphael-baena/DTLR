@@ -159,7 +159,7 @@ def main(args):
         args.use_ema = False
     if not getattr(args, "debug", None):
         args.debug = False
-    if not getattr(args, "mode_chr", None):
+    if not hasattr(args, "mode_chr"):
         args.mode_chr = True
     if not getattr(args, "eval_epoch", None):
         args.eval_epoch = 1
