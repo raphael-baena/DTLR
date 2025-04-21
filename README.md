@@ -126,7 +126,7 @@ Use the scripts in **scripts/evaluating** to evaluate the model on the different
 
 # Ngram
 ## Evaluation
-We provide our N-gran models for RIMES, READ and IAM [here](). We strongly advice to create a separate environment for the ngram model and to install the libraries in the [ngram/mini_guide.md](ngram/mini_guide.md).
+We provide our N-gran models for RIMES, READ and IAM [here](https://drive.google.com/file/d/1vm8KlY5-tWKDh2VRfW_rk5kujDVDIy90/view?usp=sharing). We strongly advice to create a separate environment for the ngram model and to install the libraries in the [ngram/mini_guide.md](ngram/mini_guide.md).
 To run an evalutation with the ngram model:
 ```bash
 bash python ngram/clean_gen_ngram_preds.py --config_path ngram/IAM.yaml
