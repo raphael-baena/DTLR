@@ -191,17 +191,6 @@ def main(args):
     n_parameters = sum(p.numel() for p in model.parameters() if p.requires_grad)
     logger.info('number of params:'+str(n_parameters))
     logger.info("params:\n"+json.dumps({n: p.numel() for n, p in model.named_parameters() if p.requires_grad}, indent=2))
-    model.transformer.encoder.requires_grad_(False)
-    model_without_ddp.transformer.encoder.requires_grad_(False)
-    for name, param in model_without_ddp.transformer.encoder.named_parameters():
-        print("Name:", name)
-        param.requires_grad = False
-
-    # For model
-    for name, param in model.transformer.encoder.named_parameters():
-        #print("Name:", name)
-        param.requires_grad = False
-
     param_dicts = get_param_dict(args, model_without_ddp)
 
 
